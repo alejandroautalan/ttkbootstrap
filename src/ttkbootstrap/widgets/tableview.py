@@ -1,5 +1,5 @@
 import tkinter as tk
-import ttkbootstrap as ttk
+from tkinter import ttk
 from ttkbootstrap.constants import *
 from math import ceil
 from datetime import datetime
@@ -7,6 +7,7 @@ from tkinter import font
 from ttkbootstrap import utility
 from typing import Any, Dict, List, Union
 from ttkbootstrap.localization import MessageCatalog
+
 
 UPARROW = "⬆"
 DOWNARROW = "⬇"

@@ -9,7 +9,7 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 from ttkbootstrap.themes import standard, user
 from ttkbootstrap.style import ThemeDefinition
 from ttkbootstrap.constants import *
-from ttkbootstrap.dialogs import Messagebox
+from ttkbootstrap.popups import Messagebox
 
 
 class ThemeCreator(ttk.Window):

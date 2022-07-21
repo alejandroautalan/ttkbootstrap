@@ -25,7 +25,7 @@ class ColorDropperDialog:
 
     This widget is implemented for **Windows** and **Linux** only.
 
-    ![](../../assets/dialogs/color-dropper.png)       
+    ![](../../assets/popups/color-dropper.png)
 
     !!! warning "high resolution displays"
         This widget may not function properly on high resolution

@@ -174,6 +174,6 @@ if __name__ == "__main__":
     print(result)
     result = MessageCatalog.translate("yes")
     print(result)
-    from ttkbootstrap.dialogs import Messagebox
+    from ttkbootstrap.popups import Messagebox
 
     Messagebox.okcancel("this is my message")

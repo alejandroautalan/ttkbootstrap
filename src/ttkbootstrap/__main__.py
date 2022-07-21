@@ -5,9 +5,9 @@
         - the legacy tk widgets do not update after DateDialog is used.
 """
 import ttkbootstrap as ttk
+from ttkbootstrap import ScrolledText
 from ttkbootstrap.constants import *
-from ttkbootstrap.dialogs import Messagebox
-from ttkbootstrap.scrolled import ScrolledText
+from ttkbootstrap.popups import Messagebox
 
 
 def setup_demo(master):
@@ -147,7 +147,7 @@ Namespaces are one honking great idea -- let's do more of those!"""
     nb.add(ttk.Frame(nb), text="Tab 5")
 
     # text widget
-    txt = ScrolledText(master=lframe, height=5, width=50, autohide=True)
+    txt = ScrolledText(master=lframe, height=5, width=50)
     txt.insert(END, ZEN)
     txt.pack(side=LEFT, anchor=NW, pady=5, fill=BOTH, expand=YES)
     lframe_inner = ttk.Frame(lframe)
